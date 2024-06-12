@@ -1,3 +1,3 @@
 Personal portfolio
 
-(https://github.com/snsen0.github.io.git)
+(https://github.com/snsen0.github.io)
