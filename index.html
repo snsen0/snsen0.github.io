@@ -228,8 +228,14 @@
               hedefliyorum.
             </p>
 
-            <p><a href="assets/file/SenaSen_CV.pdf" download="SenaSen_CV.pdf" class="buttonCV">CV'yi Göster</a></p>
-
+            <p>
+              <a
+                href="assets/file/SenaSen_CV.pdf"
+                download="SenaSen_CV.pdf"
+                class="buttonCV"
+                >CV'yi Göster</a
+              >
+            </p>
           </section>
 
           <!--
@@ -277,24 +283,23 @@
                 </div>
               </li>
 
-              <!-- <li class="service-item">
-              <div class="service-icon-box">
-                <img
-                  src="./assets/images/icon-design.svg"
-                  alt="design icon"
-                  width="40"
-                />
-              </div>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web Design</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">UI Design</h4>
 
-                <p class="service-item-text">
-                  Professional development of applications for iOS and
-                  Android.
-                </p>
-              </div>
-            </li> -->
+                  <p class="service-item-text">
+                    Figma ile kullanıcı arayüzü tasarımı deneyimi
+                  </p>
+                </div>
+              </li>
 
               <!-- <li class="service-item">
               <div class="service-icon-box">
@@ -321,7 +326,7 @@
           - testimonials
         -->
 
-          <section class="testimonials">
+          <!-- <section class="testimonials">
             <h3 class="h3 testimonials-title">Referanslar</h3>
 
             <ul class="testimonials-list has-scrollbar">
@@ -375,7 +380,7 @@
                 </div>
               </li>
 
-              <!-- <li class="testimonials-item">
+               <li class="testimonials-item">
                 <div class="content-card" data-testimonials-item>
                   <figure class="testimonials-avatar-box">
                     <img
@@ -406,7 +411,7 @@
                 </div>
               </li> -->
 
-              <!-- <li class="testimonials-item">
+          <!-- <li class="testimonials-item">
                 <div class="content-card" data-testimonials-item>
                   <figure class="testimonials-avatar-box">
                     <img
@@ -435,9 +440,9 @@
                     </p>
                   </div>
                 </div>
-              </li> -->
+              </li> 
             </ul>
-          </section>
+          </section>-->
 
           <!--
           - testimonials modal
@@ -461,7 +466,7 @@
                   />
                 </figure>
 
-                <!-- <img src="./assets/images/icon-quote.svg" alt="quote icon" /> -->
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
               </div>
 
               <div class="modal-content">
@@ -469,7 +474,7 @@
                   ÖĞR. GÖR. UMUT KURAN
                 </h4>
 
-                <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+                <time datetime="2021-06-14">14 June, 2021</time>
 
                 <div data-modal-text>
                   <p>Öğretim Görevlisi</p>
@@ -748,21 +753,27 @@
 
           <section class="projects">
             <ul class="filter-list">
+              <!-- Kategoriler
+                    web design
+                    applications
+                    web development
+                     -->
               <li class="filter-item">
                 <button class="active" data-filter-btn>All</button>
               </li>
 
-              <li class="filter-item">
-                <button data-filter-btn>Mobil Uygulamalar</button>
-              </li>
-
-              <li class="filter-item">
-                <button data-filter-btn>Web Tabanlı Projeler</button>
-              </li>
-
               <!-- <li class="filter-item">
-                <button data-filter-btn>Web development</button>
+                <button data-filter-btn>Web design</button>
               </li> -->
+  
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+  
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+
             </ul>
 
             <div class="filter-select-box">
@@ -781,27 +792,28 @@
                   <button data-select-item>All</button>
                 </li>
 
-                <li class="select-item">
-                  <button data-select-item>Mobil Uygulamalar</button>
-                </li>
-
-                <li class="select-item">
-                  <button data-select-item>Web Tabanli Projeler</button>
-                </li>
-
                 <!-- <li class="select-item">
-                  <button data-select-item>Web development</button>
+                  <button data-select-item>Web design</button>
                 </li> -->
+  
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+  
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+
               </ul>
             </div>
 
             <ul class="project-list">
+
               <li
                 class="project-item active"
                 data-filter-item
-                data-category="Web Tabanli Projeler"
-              >
-                <a href="#">
+                data-category="applications">
+                <a href="https://github.com/snsen0/PaymentSystem">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -814,16 +826,16 @@
                     />
                   </figure>
 
-                  <h3 class="project-title">Otp ve Metamask Projesi</h3>
+                  <h3 class="project-title">Kripto Para Ödeme Sistemi</h3>
+                  <p class="project-category">Mobil Uygulamalar</p>
                 </a>
               </li>
-
-              <li
+              
+             <li
                 class="project-item active"
                 data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
+                data-category="applications">
+                <a href="https://github.com/snsen0/VotingSystem">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
@@ -836,179 +848,34 @@
                     />
                   </figure>
 
-                  <h3 class="project-title">Orizon</h3>
+                  <h3 class="project-title">Oy Kullanma Sistemi</h3>
 
-                  <p class="project-category">Web development</p>
+                  <p class="project-category">Mobil uygulamalar</p>
                 </a>
               </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-3.jpg"
-                      alt="fundo"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Fundo</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-4.png"
-                      alt="brawlhalla"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Brawlhalla</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-5.png"
-                      alt="dsm."
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">DSM.</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web design"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-6.png"
-                      alt="metaspark"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">MetaSpark</h3>
-
-                  <p class="project-category">Web design</p>
-                </a>
-              </li>
-
+              
               <li
                 class="project-item active"
                 data-filter-item
                 data-category="web development"
               >
-                <a href="#">
+                <a href="https://github.com/snsen0/OtpMetaMask">
                   <figure class="project-img">
                     <div class="project-item-icon-box">
                       <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
                     <img
-                      src="./assets/images/project-7.png"
-                      alt="summary"
+                      src="./assets/images/project-3.png"
+                      alt="OtpMetamask"
                       loading="lazy"
                     />
                   </figure>
 
-                  <h3 class="project-title">Summary</h3>
-
-                  <p class="project-category">Web development</p>
+                  <h3 class="project-title">Otp ve Metamask Projesi</h3>
+                  <p class="project-category">Web Tabanlı Projeler</p>
                 </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="applications"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-8.jpg"
-                      alt="task manager"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Task Manager</h3>
-
-                  <p class="project-category">Applications</p>
-                </a>
-              </li>
-
-              <li
-                class="project-item active"
-                data-filter-item
-                data-category="web development"
-              >
-                <a href="#">
-                  <figure class="project-img">
-                    <div class="project-item-icon-box">
-                      <ion-icon name="eye-outline"></ion-icon>
-                    </div>
-
-                    <img
-                      src="./assets/images/project-9.png"
-                      alt="arrival"
-                      loading="lazy"
-                    />
-                  </figure>
-
-                  <h3 class="project-title">Arrival</h3>
-
-                  <p class="project-category">Web development</p>
-                </a>
-              </li>
+              </li>          
             </ul>
           </section>
         </article>
